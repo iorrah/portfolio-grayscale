@@ -1,28 +1,6 @@
-# [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
+# [Iorrah Mota - Portfolio](https://www.iorrah.com)
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
-
-## Preview
-
-[![Grayscale Preview](https://startbootstrap.com/assets/img/screenshots/themes/grayscale.png)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-grayscale/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-grayscale/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-grayscale.svg)](https://www.npmjs.com/package/startbootstrap-grayscale)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/)
-* Install via npm: `npm i startbootstrap-grayscale`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-grayscale.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-grayscale)
+This is a portfolio website where I host my most recent work as a professional UI Designer.
 
 ## Usage
 
@@ -44,25 +22,24 @@ After installation, run `npm install` and then run `npm start` which will open u
 
 You must have npm installed globally in order to use this build environment.
 
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
-
 ## About
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+I'm a UI Designer obsessed with customer satisfaction. For 5+ years I've been working with top-tier tech startups as Software Developer. Above all, I’m strongly committed, honest, reliable, hard-working and humble. You can find my work here:
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+* [Tours](https://www.behance.net/gallery/84707297/Tours-Self-Guided-City-Tours)
+* [Spatial](https://www.behance.net/gallery/87073569/Spatial-Space-Travel-for-Business)
+* [Recall](https://www.behance.net/gallery/87073659/Recall-Notes-Taking-App-for-People-in-a-Hurry)
+* [Mastery](https://www.behance.net/gallery/87073973/Mastery-Recommendation-based-clothing-for-men)
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Here are some places where you can find me:
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+* [Instagram](https://www.instagram.com/iorrah)
+* [Twitter](https://twitter.com/iorrahmota)
+* [LinkedIn](https://www.linkedin.com/in/iorrah)
+* [GitHub](https://github.com/iorrah)
+* [Dribbble](https://dribbble.com/iorrah)
+* [Flickr](https://www.flickr.com/photos/iorrah)
 
 ## Copyright and License
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+Copyright © Iorrah Mota 2019 - All Rights Reserved
