@@ -1,4 +1,20 @@
-node_modules
-.sass-cache
-bower_components
-vendor/*
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/.publish
+
+# dependencies
+/node_modules
+/bower_components
+/vendor
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log*
+yarn-error.log
+testem.log

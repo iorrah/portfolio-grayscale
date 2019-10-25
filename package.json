@@ -1,11 +1,12 @@
 {
-    "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
-    "version": "5.0.9",
+    "title": "Personal Website",
+    "name": "iorrah.github.io",
+    "main": "index.js",
+    "version": "1.0.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A grayscale one page HTML theme for Bootstrap.",
+    "description": "A personal website.",
     "keywords": [
         "css",
         "sass",
@@ -14,19 +15,19 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/grayscale",
+    "homepage": "http://iorrah.com",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/iorrah/iorrah.github.io/issues",
+        "email": "hello@iorrah.com"
     },
-    "license": "MIT",
-    "author": "Start Bootstrap",
+    "license": "",
+    "author": "Iorrah Mota",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Iorrah Mota (http://iorrah.com)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
+        "url": "https://github.com/iorrah/iorrah.github.io.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
