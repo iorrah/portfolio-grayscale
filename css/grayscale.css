@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #276EF1;
+  border: 1px solid #276EF1;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #276EF1;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #0c4bbf;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #276EF1;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #276EF1;
   }
 }
 
@@ -146,20 +146,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #276EF1;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #0e55d7;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #0e55d7;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #0c4bbf !important;
 }
 
 .about-section {
@@ -182,7 +182,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #276EF1;
   }
 }
 
@@ -196,7 +196,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #276EF1;
     border-width: .25rem;
     width: 30%;
   }
@@ -224,11 +224,16 @@
 
 .contact-section {
   padding: 5rem 0 0;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #276EF1;
 }
 
 .contact-section .card h4 {
@@ -239,7 +244,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #276EF1;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -252,14 +257,14 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(22, 22, 22, 0.6);
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: #161616;
 }
 
 .contact-section .social a:active {
@@ -272,12 +277,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #276EF1;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #0b42a7;
 }
 
 .bg-black {
@@ -285,11 +290,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #276EF1 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #276EF1 !important;
 }
 
 footer {
