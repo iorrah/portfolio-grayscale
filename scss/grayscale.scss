@@ -8,8 +8,30 @@
 @import 'signup.scss';
 @import 'contact.scss';
 
+@font-face {
+  font-family: Montserrat;
+  src: url('font/Montserrat-Black.ttf')
+       url('font/Montserrat-BlackItalic.ttf')
+       url('font/Montserrat-Bold.ttf')
+       url('font/Montserrat-BoldItalic.ttf')
+       url('font/Montserrat-ExtraBold.ttf')
+       url('font/Montserrat-ExtraBoldItalic.ttf')
+       url('font/Montserrat-ExtraLight.ttf')
+       url('font/Montserrat-ExtraLightItalic.ttf')
+       url('font/Montserrat-Italic.ttf')
+       url('font/Montserrat-Light.ttf')
+       url('font/Montserrat-LightItalic.ttf')
+       url('font/Montserrat-Medium.ttf')
+       url('font/Montserrat-MediumItalic.ttf')
+       url('font/Montserrat-Regular.ttf')
+       url('font/Montserrat-SemiBold.ttf')
+       url('font/Montserrat-SemiBoldItalic.ttf')
+       url('font/Montserrat-Thin.ttf')
+       url('font/Montserrat-ThinItalic.ttf');
+}
+
 body {
-  font-family: 'Nunito';
+  font-family: 'Montserrat';
   letter-spacing: 0.0625em;
 }
 
