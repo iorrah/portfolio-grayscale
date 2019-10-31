@@ -22,7 +22,7 @@
 
 #mainNav .navbar-brand {
   color: #161616;
-  font-weight: 700;
+  font-weight: 600;
   padding: .9rem 0;
 }
 
@@ -47,18 +47,18 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(22, 22, 22, 0.5);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(22, 22, 22, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(22, 22, 22, 0.75);
   }
   #mainNav .nav-link:active {
-    color: white;
+    color: #161616;
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
@@ -90,21 +90,14 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  background: #fff;
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color: #161616;
 }
 
 .masthead h2 {
@@ -127,10 +120,9 @@
   .masthead h1 {
     font-size: 6.5rem;
     line-height: 6.5rem;
-    letter-spacing: 0.8rem;
   }
   .masthead h2 {
-    max-width: 30rem;
+    max-width: 32rem;
     font-size: 1.25rem;
   }
 }
@@ -138,9 +130,10 @@
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 80%;
-  text-transform: uppercase;
+  font-weight: 600;
+  text-transform: none;
   letter-spacing: .15rem;
   border: 0;
 }
@@ -164,7 +157,7 @@
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: #161616;
 }
 
 .about-section .about-avatar {
@@ -180,6 +173,7 @@
 
 .projects-section {
   padding: 10rem 0;
+  background: #fff;
 }
 
 .projects-section .featured-text {
@@ -222,7 +216,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -231,11 +225,7 @@
 
 .contact-section {
   padding: 5rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  background: #161616;
 }
 
 .contact-section .card {
@@ -245,7 +235,7 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -278,8 +268,13 @@
   color: #fff;
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url("font/Montserrat-Black.ttf") url("font/Montserrat-BlackItalic.ttf") url("font/Montserrat-Bold.ttf") url("font/Montserrat-BoldItalic.ttf") url("font/Montserrat-ExtraBold.ttf") url("font/Montserrat-ExtraBoldItalic.ttf") url("font/Montserrat-ExtraLight.ttf") url("font/Montserrat-ExtraLightItalic.ttf") url("font/Montserrat-Italic.ttf") url("font/Montserrat-Light.ttf") url("font/Montserrat-LightItalic.ttf") url("font/Montserrat-Medium.ttf") url("font/Montserrat-MediumItalic.ttf") url("font/Montserrat-Regular.ttf") url("font/Montserrat-SemiBold.ttf") url("font/Montserrat-SemiBoldItalic.ttf") url("font/Montserrat-Thin.ttf") url("font/Montserrat-ThinItalic.ttf");
+}
+
 body {
-  font-family: 'Nunito';
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   letter-spacing: 0.0625em;
 }
 
@@ -306,4 +301,6 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+  background: #161616 !important;
+  border-top: 1px solid #262626;
 }
