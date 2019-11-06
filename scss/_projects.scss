@@ -8,11 +8,14 @@
   .project__block {
     margin-bottom: 4rem;
   }
+  .project__showcase {
+    border-radius: 4px;
+  }
   .featured-text {
     padding: 2rem;
+    text-align: center;
     @media (min-width: 992px) {
-      padding: 0 0 0 2rem;
-      border-left: 0.5rem solid $primary;
+      padding: 2rem 0 0;
     }
   }
   .project-text {

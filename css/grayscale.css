@@ -191,14 +191,18 @@
   margin-bottom: 4rem;
 }
 
+.projects-section .project__showcase {
+  border-radius: 4px;
+}
+
 .projects-section .featured-text {
   padding: 2rem;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #276EF1;
+    padding: 2rem 0 0;
   }
 }
 
