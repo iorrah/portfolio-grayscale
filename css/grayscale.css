@@ -37,6 +37,11 @@
   background-color: transparent;
 }
 
+#mainNav.navbar-shrink {
+  box-shadow: 0 10px 40px rgba(22, 22, 22, 0.05);
+  background: #fff;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
@@ -90,19 +95,20 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: #fff;
+  background: #161616;
 }
 
 .masthead h1 {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
-  color: #161616;
+  color: #fff;
 }
 
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  color: #c9c9c9;
 }
 
 @media (min-width: 768px) {

@@ -4,16 +4,17 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: $white;
+  background: $black;
   h1 {
     font-family: $font;
     font-size: 2.5rem;
     line-height: 2.5rem;
-    color: $black;
+    color: $white;
   }
   h2 {
     max-width: 20rem;
     font-size: 1rem;
+    color: lighten($black, 70%);
   }
   @media(min-width: 768px) {
     h1 {

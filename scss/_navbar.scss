@@ -29,6 +29,10 @@
       }
     }
   }
+  &.navbar-shrink {
+    box-shadow: 0 10px 40px fade-out($black, .95);
+    background: $white;
+  }
   @media (min-width: 992px) {
     padding-top: 0;
     padding-bottom: 0;
