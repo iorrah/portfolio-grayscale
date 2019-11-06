@@ -176,6 +176,14 @@
   background: #fff;
 }
 
+.projects-section .projects-section__title {
+  margin-bottom: 4rem;
+}
+
+.projects-section .project__block {
+  margin-bottom: 4rem;
+}
+
 .projects-section .featured-text {
   padding: 2rem;
 }
