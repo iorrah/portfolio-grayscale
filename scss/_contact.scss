@@ -1,6 +1,7 @@
 .contact-section {
   padding: 5rem 0;
   background: $black;
+  border-top: 1px solid darken($white, 85%);
   .card {
     border: 0;
     border-bottom: 0.25rem solid $primary;
