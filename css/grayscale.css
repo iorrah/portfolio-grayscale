@@ -193,11 +193,12 @@
 
 .projects-section .project__showcase {
   border-radius: 4px;
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .projects-section .project__showcase:hover {
   transform: translate(0, -0.8rem);
+  box-shadow: 0 10px 30px rgba(22, 22, 22, 0.1);
 }
 
 .projects-section .featured-text {
