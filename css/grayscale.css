@@ -193,6 +193,11 @@
 
 .projects-section .project__showcase {
   border-radius: 4px;
+  transition: transform 0.3s;
+}
+
+.projects-section .project__showcase:hover {
+  transform: translate(0, -0.8rem);
 }
 
 .projects-section .featured-text {

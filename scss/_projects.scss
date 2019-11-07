@@ -10,6 +10,10 @@
   }
   .project__showcase {
     border-radius: 4px;
+    transition: transform 0.3s;
+    &:hover {
+      transform: translate(0, -0.8rem); 
+    }
   }
   .featured-text {
     padding: 2rem;
