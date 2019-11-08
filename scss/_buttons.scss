@@ -1,6 +1,7 @@
 .btn {
   box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1) !important;
   padding: 1.25rem 2rem;
+  pointer-events: all;
   font-family: $font;
   font-size: 103%;
   font-weight: 500;
@@ -11,6 +12,7 @@
 
 .btn-primary {
   background-color: $primary;
+  transition: transform 0.3s;
   &:hover {
     background-color: darken($primary, 10%);
   }
@@ -20,5 +22,6 @@
   }
   &:active {
     background-color: darken($primary, 15%) !important;
+    transform: translate(0, 0.1rem);
   }
 }
