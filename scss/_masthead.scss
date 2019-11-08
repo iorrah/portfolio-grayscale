@@ -5,6 +5,19 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: $black;
+  overflow: hidden;
+  .masterhead__shapes {
+    position: relative;
+    overflow: visible;
+    top: -10vw;
+    width: 100%;
+    height: 0;
+  }
+  .masterhead__shapes-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
   h1 {
     font-family: $font;
     font-size: 2.5rem;

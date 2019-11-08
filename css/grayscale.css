@@ -96,6 +96,21 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: #161616;
+  overflow: hidden;
+}
+
+.masthead .masterhead__shapes {
+  position: relative;
+  overflow: visible;
+  top: -10vw;
+  width: 100%;
+  height: 0;
+}
+
+.masthead .masterhead__shapes-image {
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .masthead h1 {
@@ -136,6 +151,7 @@
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
+  pointer-events: all;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 103%;
   font-weight: 500;
@@ -146,6 +162,7 @@
 
 .btn-primary {
   background-color: #276EF1;
+  transition: transform 0.3s;
 }
 
 .btn-primary:hover {
@@ -159,6 +176,7 @@
 
 .btn-primary:active {
   background-color: #0c4bbf !important;
+  transform: translate(0, 0.1rem);
 }
 
 .about-section {
