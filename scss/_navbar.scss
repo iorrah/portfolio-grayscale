@@ -41,12 +41,12 @@
     transition: background-color 0.3s ease-in-out;
     .navbar-brand {
       padding: .5rem 0;
-      color: fade-out($black, .5);
+      color: transparent;
     }
     .nav-link {
       transition: none;
       padding: 2rem 1.5rem;
-      color: fade-out($black, .5);
+      color: transparent;
       &:hover {
         color: fade-out($black, .25);
       }
