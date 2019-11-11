@@ -29,6 +29,7 @@
     max-width: 20rem;
     font-size: 1rem;
     color: lighten($black, 70%);
+    padding: 0 1rem;
   }
   @media(min-width: 568px) and (min-height: 320px) {
     .masterhead__shapes {
