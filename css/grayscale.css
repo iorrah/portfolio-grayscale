@@ -318,7 +318,7 @@
 
 .projects-section .project__showcase:hover {
   transform: translate(0, -0.8rem);
-  box-shadow: 0 10px 30px rgba(22, 22, 22, 0.1);
+  box-shadow: 0 10px 30px rgba(22, 22, 22, 0.03);
 }
 
 .projects-section .featured-text {
