@@ -52,12 +52,12 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(22, 22, 22, 0.5);
+    color: transparent;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(22, 22, 22, 0.5);
+    color: transparent;
   }
   #mainNav .nav-link:hover {
     color: rgba(22, 22, 22, 0.75);
@@ -125,6 +125,7 @@
   max-width: 20rem;
   font-size: 1rem;
   color: #c9c9c9;
+  padding: 0 1rem;
 }
 
 @media (min-width: 568px) and (min-height: 320px) {
@@ -288,6 +289,8 @@
   height: auto;
   border-radius: 100%;
   margin: 0 0 20px;
+  border: 0.2rem solid #276EF1;
+  padding: 0.3rem;
 }
 
 .about-section p {
