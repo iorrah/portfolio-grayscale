@@ -1,10 +1,8 @@
 .contact-section {
   padding: 5rem 0;
-  background: $black;
-  border-top: 1px solid darken($white, 85%);
+  background: $white;
   .card {
-    border: 0;
-    border-bottom: 0.25rem solid $primary;
+    border: 0.2rem solid $primary;
     h4 {
       font-size: 0.8rem;
       font-family: $font;
@@ -12,8 +10,8 @@
       letter-spacing: 0.15rem;
     }
     hr {
-      border-color: $primary;
-      border-width: 0.25rem;
+      border-color: lighten($black, 70);
+      border-width: 0.15rem;
       width: 3rem;
     }
   }
@@ -23,15 +21,16 @@
       text-align: center;
       height: 3rem;
       width: 3rem;
-      background: fade-out($white, 0);
+      background: $black;
       border-radius: 100%;
       line-height: 3rem;
-      color: fade-out($black, 0.4);
+      color: $white;
+      transition: background 0.5s;
       &:hover {
-        color: fade-out($black, 0);
+        background: lighten($black, 10);
       }
       &:active {
-        color: $white;
+        background: $white;
       }
     }
   }
