@@ -2,20 +2,20 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 30rem;
   padding: 15rem 0;
-  background: $black;
+  background: $white;
   overflow: hidden;
   h1 {
     font-family: $font;
     font-size: 2.5rem;
     line-height: 2.5rem;
-    color: $white;
+    color: $black;
   }
   h2 {
     max-width: 20rem;
     font-size: 1rem;
-    color: lighten($black, 70%);
+    color: lighten($black, 50%);
     padding: 0 1rem;
   }
   @media(min-width: 768px) {
@@ -28,13 +28,13 @@
     height: 100vh;
     padding: 0;
     h1 {
-      font-size: 6.5rem;
+      font-size: 5rem;
       line-height: 6.5rem;
     }
     h2 {
       max-width: 34rem;
-      font-size: 1.25rem;
-    }
+      font-size: 1rem;
     }
   }
 }
+
