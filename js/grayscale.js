@@ -40,7 +40,7 @@
   $(window).scroll(navbarCollapse);
 
   // Initiate Parallax
-  var scene = document.getElementById('scene');
-  var parallaxInstance = new Parallax(scene);
+  // var scene = document.getElementById('scene');
+  // var parallaxInstance = new Parallax(scene);
 
 })(jQuery); // End of use strict

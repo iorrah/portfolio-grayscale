@@ -6,19 +6,6 @@
   padding: 15rem 0;
   background: $black;
   overflow: hidden;
-  .masterhead__shapes {
-    position: relative;
-    overflow: visible;
-    height: 0;
-    top: -27vh;
-    left: -24vh;
-    width: 110vh;
-  }
-  .masterhead__shapes-image {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
   h1 {
     font-family: $font;
     font-size: 2.5rem;
@@ -31,43 +18,10 @@
     color: lighten($black, 70%);
     padding: 0 1rem;
   }
-  @media(min-width: 568px) and (min-height: 320px) {
-    .masterhead__shapes {
-      top: -64vh;
-      left: -26vh;
-      width: 225vh;
-    }
-  }
-  @media(min-width: 667px) and (min-height: 375px) {
-    .masterhead__shapes {
-      top: -61vh;
-      left: -24vh;
-      width: 221vh;
-    }
-  }
-  @media(min-width: 736px) and (min-height: 414px) {
-    .masterhead__shapes {
-      top: -64vh;
-      left: -24vh;
-      width: 210vh;
-    }
-  }
   @media(min-width: 768px) {
     h1 {
       font-size: 4rem;
       line-height: 4rem;
-    }
-    .masterhead__shapes {
-      top: -23vh;
-      left: -6vh;
-      width: 89vh;
-    }
-  }
-  @media(min-width: 812px) and (min-height: 375px) {
-    .masterhead__shapes {
-      top: -72vh;
-      left: -6vh;
-      width: 229vh;
     }
   }
   @media(min-width: 992px) {
@@ -81,59 +35,6 @@
       max-width: 34rem;
       font-size: 1.25rem;
     }
-    .masterhead__shapes {
-      top: 3rem;
-      width: 110vh;
-      left: -15vh;
-    }
-  }
-  @media(min-width: 1024px) {
-    .masterhead__shapes {
-      top: -7vh;
-      width: 140vh;
-      left: -4vh;
-    }
-  }
-  @media(min-width: 1024px) and (min-height: 1366px) {
-    .masterhead__shapes {
-      top: 3rem;
-      width: 110vh;
-      left: -15vh;
-    }
-  }
-  @media(min-width: 1100px) {
-    .masterhead__shapes {
-      top: -4vw;
-      width: 115vw;
-      left: -14vw;
-    }
-  }
-  @media(min-width: 1200px) {
-    .masterhead__shapes {
-      top: -3vw;
-      width: 100vw;
-      left: -4vw;
-    }
-  }
-  @media(min-width: 1400px) {
-    .masterhead__shapes {
-      top: -10vw;
-      width: 100vw;
-      left: -2vw;
-    }
-  }
-  @media(min-width: 1500px) {
-    .masterhead__shapes {
-      top: -13vw;
-      width: 100vw;
-      left: -2vw;
-    }
-  }
-  @media(min-width: 1600px) {
-    .masterhead__shapes {
-      top: -15vw;
-      width: 100vw;
-      left: -3vw;
     }
   }
 }
