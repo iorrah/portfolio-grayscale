@@ -1,6 +1,6 @@
 .about-section {
   padding-top: 10rem;
-  background: $black;
+  background: $white;
   .about-avatar {
     width: 100px;
     height: auto;
@@ -9,7 +9,11 @@
     border: 0.2rem solid $primary;
     padding: 0.3rem;
   }
+  h2, p {
+    text-align: center;
+  }
   p {
     margin-bottom: 5rem;
+    color: lighten($black, 40%);
   }
 }
