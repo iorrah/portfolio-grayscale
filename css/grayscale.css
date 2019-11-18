@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #000;
   font-weight: 600;
   padding: .9rem 0;
 }
@@ -38,7 +38,6 @@
 }
 
 #mainNav.navbar-shrink {
-  box-shadow: 0 10px 40px rgba(22, 22, 22, 0.05);
   background: #fff;
 }
 
@@ -60,19 +59,19 @@
     color: transparent;
   }
   #mainNav .nav-link:hover {
-    color: rgba(22, 22, 22, 0.75);
+    color: rgba(0, 0, 0, 0.75);
   }
   #mainNav .nav-link:active {
-    color: #161616;
+    color: #000;
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #000;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -93,82 +92,30 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 30rem;
   padding: 15rem 0;
-  background: #161616;
+  background: #fff;
   overflow: hidden;
-}
-
-.masthead .masterhead__shapes {
-  position: relative;
-  overflow: visible;
-  height: 0;
-  top: -27vh;
-  left: -24vh;
-  width: 110vh;
-}
-
-.masthead .masterhead__shapes-image {
-  position: relative;
-  width: 100%;
-  height: auto;
 }
 
 .masthead h1 {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
-  color: #fff;
+  color: #000;
 }
 
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
-  color: #c9c9c9;
+  color: gray;
   padding: 0 1rem;
-}
-
-@media (min-width: 568px) and (min-height: 320px) {
-  .masthead .masterhead__shapes {
-    top: -64vh;
-    left: -26vh;
-    width: 225vh;
-  }
-}
-
-@media (min-width: 667px) and (min-height: 375px) {
-  .masthead .masterhead__shapes {
-    top: -61vh;
-    left: -24vh;
-    width: 221vh;
-  }
-}
-
-@media (min-width: 736px) and (min-height: 414px) {
-  .masthead .masterhead__shapes {
-    top: -64vh;
-    left: -24vh;
-    width: 210vh;
-  }
 }
 
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
-  }
-  .masthead .masterhead__shapes {
-    top: -23vh;
-    left: -6vh;
-    width: 89vh;
-  }
-}
-
-@media (min-width: 812px) and (min-height: 375px) {
-  .masthead .masterhead__shapes {
-    top: -72vh;
-    left: -6vh;
-    width: 229vh;
   }
 }
 
@@ -178,73 +125,12 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
+    font-size: 5rem;
     line-height: 6.5rem;
   }
   .masthead h2 {
     max-width: 34rem;
-    font-size: 1.25rem;
-  }
-  .masthead .masterhead__shapes {
-    top: 3rem;
-    width: 110vh;
-    left: -15vh;
-  }
-}
-
-@media (min-width: 1024px) {
-  .masthead .masterhead__shapes {
-    top: -7vh;
-    width: 140vh;
-    left: -4vh;
-  }
-}
-
-@media (min-width: 1024px) and (min-height: 1366px) {
-  .masthead .masterhead__shapes {
-    top: 3rem;
-    width: 110vh;
-    left: -15vh;
-  }
-}
-
-@media (min-width: 1100px) {
-  .masthead .masterhead__shapes {
-    top: -4vw;
-    width: 115vw;
-    left: -14vw;
-  }
-}
-
-@media (min-width: 1200px) {
-  .masthead .masterhead__shapes {
-    top: -3vw;
-    width: 100vw;
-    left: -4vw;
-  }
-}
-
-@media (min-width: 1400px) {
-  .masthead .masterhead__shapes {
-    top: -10vw;
-    width: 100vw;
-    left: -2vw;
-  }
-}
-
-@media (min-width: 1500px) {
-  .masthead .masterhead__shapes {
-    top: -13vw;
-    width: 100vw;
-    left: -2vw;
-  }
-}
-
-@media (min-width: 1600px) {
-  .masthead .masterhead__shapes {
-    top: -15vw;
-    width: 100vw;
-    left: -3vw;
+    font-size: 1rem;
   }
 }
 
@@ -281,7 +167,7 @@
 
 .about-section {
   padding-top: 10rem;
-  background: #161616;
+  background: #fff;
 }
 
 .about-section .about-avatar {
@@ -293,14 +179,18 @@
   padding: 0.3rem;
 }
 
+.about-section h2, .about-section p {
+  text-align: center;
+}
+
 .about-section p {
   margin-bottom: 5rem;
+  color: #666666;
 }
 
 .projects-section {
   padding: 7rem 0;
   background: #fff;
-  border-top: 1px solid #c9c9c9;
 }
 
 .projects-section .projects-section__title {
@@ -318,7 +208,7 @@
 
 .projects-section .project__showcase:hover {
   transform: translate(0, -0.8rem);
-  box-shadow: 0 10px 30px rgba(22, 22, 22, 0.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
 }
 
 .projects-section .featured-text {
@@ -350,7 +240,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -370,13 +260,11 @@
 
 .contact-section {
   padding: 5rem 0;
-  background: #161616;
-  border-top: 1px solid #262626;
+  background: #fff;
 }
 
 .contact-section .card {
-  border: 0;
-  border-bottom: 0.25rem solid #276EF1;
+  border: 0.2rem solid #276EF1;
 }
 
 .contact-section .card h4 {
@@ -387,8 +275,8 @@
 }
 
 .contact-section .card hr {
-  border-color: #276EF1;
-  border-width: 0.25rem;
+  border-color: #b3b3b3;
+  border-width: 0.15rem;
   width: 3rem;
 }
 
@@ -400,18 +288,19 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: white;
+  background: #000;
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(22, 22, 22, 0.6);
+  color: #fff;
+  transition: background 0.5s;
 }
 
 .contact-section .social a:hover {
-  color: #161616;
+  background: #1a1a1a;
 }
 
 .contact-section .social a:active {
-  color: #fff;
+  background: #fff;
 }
 
 @font-face {
@@ -434,7 +323,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #000 !important;
 }
 
 .bg-primary {
@@ -447,6 +336,6 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
-  background: #161616 !important;
+  background: #000 !important;
   border-top: 1px solid #262626;
 }
