@@ -12,9 +12,10 @@
 
 .btn-primary {
   background-color: $primary;
-  transition: transform 0.3s;
+  transition: transform 0.3s, background-color 0.3s;
   &:hover {
     background-color: darken($primary, 10%);
+    transform: translate(0, -0.1rem);
   }
   &:focus {
     background-color: darken($primary, 10%);

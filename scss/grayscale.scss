@@ -37,6 +37,7 @@ body {
 
 a {
   color: $primary;
+  transition: color 0.3s;
   &:focus,
   &:hover {
     text-decoration: none;
