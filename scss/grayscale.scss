@@ -58,7 +58,8 @@ a {
 }
 
 footer {
-  padding: 5rem 0;
-  background: $black !important;
-  border-top: 1px solid darken($white, 85%);
+  padding: 3rem 0;
+  background: $gray-110 !important;
+  border: 0;
+  color: $gray-500;
 }
