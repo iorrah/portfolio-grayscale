@@ -94,12 +94,13 @@
   height: auto;
   min-height: 30rem;
   padding: 10rem 0;
-  background: #fff;
+  background: #fafafa;
   overflow: hidden;
 }
 
 .masthead h1 {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 2.5rem;
   line-height: 2.5rem;
   color: #000;
@@ -108,6 +109,7 @@
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  font-weight: 350;
   color: gray;
   padding: 0;
 }
@@ -190,8 +192,8 @@
 }
 
 .about-section {
-  padding: 15rem 0 10rem;
-  background: #fff;
+  padding: 16rem 0 15rem;
+  background: #fafafa;
 }
 
 .about-section .about-avatar {
@@ -213,7 +215,7 @@
 }
 
 .projects-section {
-  padding: 7rem 0;
+  padding: 10rem 0;
   background: #fff;
 }
 
@@ -283,7 +285,7 @@
 }
 
 .contact-section {
-  padding: 10rem 0 15rem;
+  padding: 15rem 0 15rem;
   background: #fff;
 }
 
@@ -360,7 +362,8 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
-  background: #000 !important;
-  border-top: 1px solid #262626;
+  padding: 3rem 0;
+  background: #fafafa !important;
+  border: 0;
+  color: #adb5bd;
 }
