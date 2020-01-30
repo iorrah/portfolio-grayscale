@@ -1,6 +1,6 @@
 {
     "title": "Personal Website",
-    "name": "iorrah.github.io",
+    "name": "portfolio-grayscale",
     "main": "index.js",
     "version": "1.0.0",
     "scripts": {
@@ -17,7 +17,7 @@
     ],
     "homepage": "http://iorrah.com",
     "bugs": {
-        "url": "https://github.com/iorrah/iorrah.github.io/issues",
+        "url": "https://github.com/iorrah/portfolio-grayscale/issues",
         "email": "hello@iorrah.com"
     },
     "license": "",
@@ -27,7 +27,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/iorrah/iorrah.github.io.git"
+        "url": "https://github.com/iorrah/portfolio-grayscale.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
