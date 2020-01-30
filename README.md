@@ -1,4 +1,4 @@
-# [Iorrah Mota - Portfolio](https://www.iorrah.com)
+Iorrah Mota
 
 This is a portfolio website where I host my most recent work as a professional UI Designer.
 
@@ -33,6 +33,7 @@ I'm a UI Designer obsessed with customer satisfaction. For 5+ years I've been wo
 
 Here are some places where you can find me:
 
+* [Personal Website](https://www.iorrah.com)
 * [Instagram](https://www.instagram.com/iorrah)
 * [Twitter](https://twitter.com/iorrahmota)
 * [LinkedIn](https://www.linkedin.com/in/iorrah)
